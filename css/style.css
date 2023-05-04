@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-color: black;
+	color: white;
+  font-family: 'Arcade Classic', sans-serif;
+}
+
+@font-face {
+  font-family: 'Arcade Classic';
+  src: url('arcade-classic.woff2') format('woff2'),
+       url('arcade-classic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+main {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 9%;
+        padding-bottom: 23%;
+      }
+
+
+
+header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 20px;
+}
+
+.logo {
+  font-size: 22px;
+  font-family: 'Press Start 2P', cursive;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+  font-family: 'Press Start 2P', cursive;
+}
+
+nav li {
+	margin-left: 20px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+nav a:hover {
+  color: gray;
+  font-size: 110%;
+}
+
+h1, h2, h3 {
+  
+	text-align: left;
+}
+h1 {
+    font-size: 18px;
+    font-family: 'Press Start 2P', cursive;
+    color: gray;
+
+  }
+  
+h2 {
+    font-size: 68px;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    white-space: nowrap;
+  }
+
+h3 {
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    white-space: nowrap;
+    color: white;
+    
+  }
+h1 {
+  margin-bottom: 3%;
+}
+h2 {
+    margin-top: 0;
+    margin-bottom: 3%;
+  }
+  
+h3 {
+    margin-top: 0;
+  }
+  
+.subtext {
+    display: inline-block;
+    max-width: 100%;
+    word-wrap: break-word; /* Add this line */
+  }
+
+.subtext {
+    color: lightgrey;
+    font-size: 0.8em;
+    font-family: 'Press Start 2P', cursive;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .button {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+    
+  }
+  
+  .button:hover {
+    background-color: #FFFFFF;
+    color: gray;
+    
+  }
+  
+  
+  
+
+section {
+	margin-top: 100px;
+}
+
+.blink {
+  animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+p {
+  font-family: 'Press Start 2P', cursive;
+  color: gray;
+  word-spacing: 4px;
+  line-height: 28px;
+}
+.about h2 {
+  font-size: 45px;
+}
+.about {
+  padding: 10px;
+}
+footer {
+	background-color: #ddd;
+	padding: 20px;
+	text-align: center;
+  }
+footer {
+	bottom: 0;
+	left: 0;
+	width: 950;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	text-align: center;
+  }
+footer .button {
+	background-color: gray;
+	color: #fff;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 0 10px;
+  }
+.social-buttons {
+	display: flex;
+	justify-content: center;
+  }
+.twitter:hover {
+    background-color: #1DA1F2;
+    }
+    
+.instagram:hover {
+    background-color: #E4405F;
+    }
+    
+.linkedin:hover {
+  background-color: #0E76A8;
+    }
+    
+.fab {
+    font-size: 20px;
+    margin-right: 10px;
+    }
+section h2 {
+      font-size: 45px;
+      text-align: right;
+    }
+section {
+  padding-bottom: 3%;
+}
+.image {
+      overflow: hidden;
+}
+    
+img {
+      float: left;
+      margin-right: 20px;
+    }
+    

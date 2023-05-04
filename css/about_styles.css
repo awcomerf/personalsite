@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-color: black;
+	color: white;
+  font-family: 'Arcade Classic', sans-serif;
+}
+
+@font-face {
+  font-family: 'Arcade Classic';
+  src: url('arcade-classic.woff2') format('woff2'),
+       url('arcade-classic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+main {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 1.5%;
+        padding: 20px;
+      }
+
+section {
+        margin-bottom: 40px;
+      }
+      
+h1 {
+        font-size: 2em;
+        margin-bottom: 20px;
+        font-family: 'Press Start 2P', cursive;
+        
+      }
+      
+p {
+        font-size: 1.1em;
+        line-height: 1.5;
+        margin-bottom: 20px;
+        font-family: 'Press Start 2P', cursive;
+        color: gray;
+      }
+      
+
+header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 20px;
+}
+
+.logo {
+  font-size: 22px;
+  font-family: 'Press Start 2P', cursive;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+  font-family: 'Press Start 2P', cursive;
+}
+
+nav li {
+	margin-left: 20px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+nav a:hover {
+  color: gray;
+  font-size: 110%;
+}
+
+
+  
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .button {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    
+  }
+  
+  .button:hover {
+    background-color: #FFFFFF;
+    color: gray;
+    
+  }
+  

@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-color: black;
+	color: white;
+  font-family: 'Arcade Classic', sans-serif;
+}
+
+@font-face {
+  font-family: 'Arcade Classic';
+  src: url('arcade-classic.woff2') format('woff2'),
+       url('arcade-classic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+main {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 7%;
+      }
+
+
+
+header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 20px;
+}
+
+.logo {
+  font-size: 22px;
+  font-family: 'Press Start 2P', cursive;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+  font-family: 'Press Start 2P', cursive;
+}
+
+nav li {
+	margin-left: 20px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+nav a:hover {
+  color: gray;
+  font-size: 110%;
+}
+
+
+  
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .button {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    
+  }
+  
+  .button:hover {
+    background-color: #FFFFFF;
+    color: gray;
+    
+  }
+  form {
+    margin: 0 auto;
+    max-width: 500px;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  form input,
+  form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  form input:focus,
+  form textarea:focus {
+    border-color: #FFD700;
+  }
+  
+  form textarea {
+    height: 150px;
+    resize: none;
+  }
+  h1 {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+  }
+   p {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+  }
+
+  form button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: red;
+    color: #000;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    
+  }
+form input {
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+form input:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
+footer {
+	background-color: #ddd;
+	padding: 20px;
+	text-align: center;
+  }
+  footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  .social-buttons {
+	display: flex;
+	justify-content: center;
+  }
+main .button {
+  margin: 0;
+}
+  
+.button {
+	background-color: gray;
+	color: #fff;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 0 10px;
+  }
+  
+  .twitter:hover {
+	background-color: #1DA1F2;
+  }
+  
+  .instagram:hover {
+	background-color: #E4405F;
+  }
+  
+  .linkedin:hover {
+	background-color: #0E76A8;
+  }
+  
+  .fab {
+	font-size: 20px;
+	margin-right: 10px;
+  }
+
+ 
